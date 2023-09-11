@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.github.babu12f</groupId>
+	<artifactId>extended-spring-data-jpa-repository-dev</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>extended-spring-data-jpa-repository-dev</name>
+	<description>And Extended Layer of Spring Data JPA Repository Development</description>
+
+	<properties>
+		<java.version>17</java.version>
+	</properties>
+
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>driver-app</module>
+		<module>extended-spring-data-jpa-repository</module>
+	</modules>
+
+</project>
